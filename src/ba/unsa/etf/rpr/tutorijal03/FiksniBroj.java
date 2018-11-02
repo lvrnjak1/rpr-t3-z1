@@ -42,5 +42,11 @@ public class FiksniBroj {
     public void setBroj(String broj) {
         this.broj = broj;
     }
+
+    @Override
+    public void Ispisi(){
+        System.out.println(broj);
+    }
+    
     
 }
