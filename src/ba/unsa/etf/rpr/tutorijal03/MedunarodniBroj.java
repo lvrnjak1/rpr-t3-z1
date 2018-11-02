@@ -31,4 +31,9 @@ public class MedunarodniBroj extends TelefonskiBroj {
     public String ispisi() {
         return drzava+broj;
     }
+
+    @Override
+    public int compareTo(TelefonskiBroj telefonskiBroj) {
+        return 0;
+    }
 }
