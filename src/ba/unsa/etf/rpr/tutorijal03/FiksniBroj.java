@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr.tutorijal03;
 
-public class FiksniBroj {
+public class FiksniBroj extends TelefonskiBroj{
 
 
 
@@ -44,9 +44,9 @@ public class FiksniBroj {
     }
 
     @Override
-    public void Ispisi(){
-        System.out.println(broj);
+    public String ispisi() {
+        return broj;
     }
-    
+
     
 }
