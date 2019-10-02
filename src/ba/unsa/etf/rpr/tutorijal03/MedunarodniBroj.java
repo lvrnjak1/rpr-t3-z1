@@ -1,7 +1,5 @@
 package ba.unsa.etf.rpr.tutorijal03;
 
-import com.sun.java.swing.plaf.motif.MotifEditorPaneUI;
-
 public class MedunarodniBroj extends TelefonskiBroj {
     private String drzava;
     private  String broj;
@@ -30,10 +28,5 @@ public class MedunarodniBroj extends TelefonskiBroj {
     @Override
     public String ispisi() {
         return drzava+broj;
-    }
-
-    @Override
-    public int compareTo(TelefonskiBroj telefonskiBroj) {
-        return 0;
     }
 }

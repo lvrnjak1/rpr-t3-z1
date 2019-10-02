@@ -21,9 +21,10 @@ public class Imenik {
     }
 
     public String naSlovo(char s){
-        String tabela = new String();
+        String tabela = "";
+        int i = 1;
         for(String imena: imenik.keySet()){
-            if(imena.charAt(0) == s) tabela += imena + "-" + imenik.get(imena) + "\n";
+            if(imena.charAt(0) == s) tabela += i + ". " + imena + " - " + imenik.get(imena).ispisi() + "\n";
         }
         return tabela;
     }

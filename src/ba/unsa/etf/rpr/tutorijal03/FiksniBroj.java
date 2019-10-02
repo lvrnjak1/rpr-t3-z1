@@ -2,11 +2,6 @@ package ba.unsa.etf.rpr.tutorijal03;
 
 public class FiksniBroj extends TelefonskiBroj{
 
-    @Override
-    public int compareTo(TelefonskiBroj telefonskiBroj) {
-        return 0;
-    }
-
     public enum Grad{
         BUGOJNO("030"), BREZA("032"), SARAJEVO("033"), TUZLA("035"), MOSTAR("036"), BIHAC("037"), GORAŽDE("038"),
         ZENICA("032"), TRAVNIK("030"), ORASJE("031"), LIVNO("034"), SIROKI_BRIJEG("039"), BRCKO("049");

@@ -7,4 +7,9 @@ public abstract class TelefonskiBroj implements Comparable<TelefonskiBroj>{
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    public int compareTo(TelefonskiBroj telefonskiBroj) {
+        return ispisi().compareTo(telefonskiBroj.ispisi());
+    }
 }

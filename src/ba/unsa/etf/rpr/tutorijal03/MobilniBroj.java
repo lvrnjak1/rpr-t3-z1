@@ -28,11 +28,6 @@ public class MobilniBroj extends TelefonskiBroj{
 
     @Override
     public String ispisi() {
-        return  "0" + mobilnaMreza + broj;
-    }
-
-    @Override
-    public int compareTo(TelefonskiBroj telefonskiBroj) {
-        return 0;
+        return  "0" + mobilnaMreza + "/" + broj;
     }
 }
