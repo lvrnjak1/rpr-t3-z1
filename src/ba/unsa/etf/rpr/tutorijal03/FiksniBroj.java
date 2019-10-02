@@ -22,7 +22,7 @@ public class FiksniBroj extends TelefonskiBroj{
 
     FiksniBroj(Grad grad, String broj){
         setGrad(grad);
-        setBroj(grad.getPozivniBroj() + "/" + broj);
+        setBroj(broj);
     }
 
     public Grad getGrad() {
@@ -43,7 +43,7 @@ public class FiksniBroj extends TelefonskiBroj{
 
     @Override
     public String ispisi() {
-        return broj;
+        return grad.getPozivniBroj() + "/" + broj;
     }
 
     
